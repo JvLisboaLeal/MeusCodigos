@@ -1,0 +1,33 @@
+.title{
+    margin-left: 400px;
+}
+.email{
+    margin-left: 380px;
+}
+
+.assinar{
+background-color: blue;
+color: white;
+padding: 10px;
+width: 200px;
+margin-left: 400px;
+}
+.assinar {
+    padding: 10px;
+    background-color: #1971C2;
+    text-align: center;
+  }
+  .assinar:hover {
+    background-color: #1864AB;
+  }
+  
+  .input {
+    height: 30px;
+    padding-left: 20px;
+    border: 2px solid transparent;
+    background-color: #E9ECEF;
+    margin-left: 400px;
+  }
+  .input:hover{
+      background-color: #DEE2E6;
+  }

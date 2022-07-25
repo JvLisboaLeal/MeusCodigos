@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div>
+        <label for="nome">nome</label>
+        <input type="text" id="nome" name="nome" placeholder="seu nome aqui" maxlength="10" required="true">
+        
+    
+        <label for="senha">senha</label>  
+        <input type="password" id="senha" name="senha" placeholder="sua senha aqui" maxlength="10" required="true">
+    </div>
+
+    <div>
+            <p>Qual Método de Contato?</p>
+
+            <label for="email">E-mail</label>
+            <input id="email" type="radio" required="" name="MetodoDeContato" value="email">
+
+            <label for="telefone">Telefone</label>
+            <input id="telefone" type="radio" required="" name="MetodoDeContato" value="telefone">
+
+            <label for="zap">Zap</label>
+            <input id="zap" type="radio" required="" name="MetodoDeContato" value="zap">
+    </div>
+
+    <div>
+            <label for="planos">Planos</label>
+        
+            <select name="plano" required="true" id="plano">
+                <option value=""> Escolher plano</option>
+                <option value="free"> Free</option>
+                <option value="premium"> Premium</option>
+                <option value="pro"> Pro</option>
+            </select>
+    </div>
+
+            <button type="submit">Enviar</button>
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+.boxMain{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+.boxItem{
+    width: 270px;
+    height: 230px;
+    background-color: black;
+    border-radius: 8px;
+  }

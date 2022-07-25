@@ -1,0 +1,33 @@
+
+body{
+    font-size: 22px;
+}
+
+.title-main{
+    margin:0 auto;
+    margin-left: 400px;
+    margin-top: 30px;
+}
+
+span{
+    color: blue;
+}
+
+.background-blue{
+    background-color: blue;
+    color: white;
+}
+
+li{
+    text-decoration: underline black;
+}
+
+.background-black {
+    background-color: black;
+    color: white;
+}
+
+.text-center{
+    text-align: center;
+    padding: 14px;
+}

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: auto;
+}
+.container{
+max-width: 1200px;
+margin: 0px;
+margin-left: 0%;
+margin-top: 3%;
+}
+.menu{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+}
+.nav{
+    display: flex;
+    gap: 20px;
+}
+
+.logo{
+    margin-left: 0%;
+}
+
+.menu-link-button {
+text-decoration: none;
+height: 32px;
+background-color: #0A99FE;
+color: #FFFFFF;
+padding: 0 32px;
+display: flex;
+align-items: center;
+border-radius: 4px;
+}
+
+.menu-link-button2 {
+text-decoration: none;
+height: 32px;
+background-color: #FFFFFF;
+color: #0A99FE;
+padding: 0 32px;
+display: flex;
+align-items: center;
+border-radius: 4px;
+}
+
+.items{
+display: flex;
+flex-direction: column;
+width: 24%;
+margin-bottom: 16px;
+margin-left: 10%;
+align-items: center;
+}
+
+.products-figures{
+width: 95vw;
+height: 275px;     
+display: flex;
+flex-direction: column;
+margin: 0px;
+margin-top: 10%;
+justify-content: space-evenly;
+}
+.products-paintings{ 
+width: 95vw;
+height: 275px;    
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.division{
+    display: flex;
+}

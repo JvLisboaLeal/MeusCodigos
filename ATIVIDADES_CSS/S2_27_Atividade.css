@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&family=Inter&display=swap');
+
+.body{
+    background-color: black;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+}
+.logo{
+    text-align: center;
+    height: 100px;
+    margin-top: 50px;
+}
+.title{
+    background-color: black;
+    color: white;
+    height: 100px;
+    text-align: center;
+}
+.profiles{
+    width: 700px;
+    margin-left: 31%;
+    border: solid transparent;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-around
+}
+.img{
+    background-color: black;
+}
+.img:hover{
+    background-color: white;
+    padding: 1.5px;
+}
+.profiles_names{
+    color: #9C9C9C;
+    width: 700px;
+    height: 150px;
+    margin-left: 32%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.profile_namesH:hover{
+    color: white;
+}
+.profile_manager{
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 0 42%;
+    padding: 2px;
+}
+.profile_manager:hover{
+    background-color: white;
+    color: black;
+    padding: 2px;
+}
+
+
+

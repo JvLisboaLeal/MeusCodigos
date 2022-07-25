@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    
+    <form>
+
+
+    <div>
+        <lebel for="Nome">Nome</lebel>
+    </div>
+        <textarea id="Nome" placeholder="Digite seu nome aqui..." cols="30" rows="2" required="true"></textarea>
+   
+    <div>
+        <lebel for="Email">Email</lebel>
+    </div>
+      <textarea id="Email" placeholder="Digite seu email aqui..." cols="30" rows="2" required="true"></textarea>
+    
+    <div>
+        <lebel for="Descrição">Descrição</lebel>
+    </div>
+        <textarea id="Descrição"  placeholder="Fale mais sobre você aqui..." cols="30" rows="4" required="true"></textarea>
+
+    <div>
+        <lebel for="Módulo">Módulo</lebel>
+    </div>
+            <select name="Escolher Módulo" required="true" id="Escolher Módulo">
+                <option value="Módulo Escolher Módulo"> Escolher Módulo</option>
+                <option value="Módulo 1"> Módulo 1</option>
+                <option value="Módulo 2"> Módulo 2</option>
+                <option value="Módulo 3"> Módulo 3</option>
+            </select>
+
+    <div>
+        <lebel for="Senha">Senha</lebel>
+    </div>
+        <input type="password" id="Senha" name="Senha" placeholder="Digite sua senha aqui..." maxlength="10" required="true">
+
+    <div>
+        <lebel for="Confirme sua senha aqui...">Confirmar senha</lebel>
+    </div>
+        <input type="password" id="Confirme sua senha aqui..." name="Confirme sua senha aqui..." placeholder="Confirme sua senha aqui..." maxlength="10" required="true">
+
+    <div>
+        <p>Deseja receber novidades em seu email?</p>
+        <label for="Sim">Sim</label>
+        <input id="Sim" type="radio" required="" name="Novidades" value="Sim">
+
+        <label for="Não">Não</label>
+        <input id="Não" type="radio" required="" name="Novidades" value="Não">
+    </div>
+    
+        <div>
+            <button type="submit">Cadastrar</button>
+        </div>
+    </form>
+</body>
+
+</html>
